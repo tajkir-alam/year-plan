@@ -174,3 +174,59 @@ hr{
     border-radius: 10px;
 }
 /* Second Banner Section End */
+
+/* Footer Section Start */
+footer{
+    background-color: rgba(15, 15, 15, 0.925);
+    color: white;
+    padding: 130px 0px;
+}
+footer .footer-container{
+    display: flex;
+    gap: 150px;
+}
+.footer-container .left-footer{
+    width: 60%;
+}
+.footer-container .right-footer{
+    width: 40%;
+}
+.footer-container .footer-title{
+    font-size: 45px;
+    font-weight: 600;
+}
+.footer-container .footer-description{
+    font-weight: 400;
+    color: rgb(228, 215, 215);
+    margin: 20px 0px;
+}
+.footer-container .footer-info{
+    margin: 20px 0px;
+}
+.footer-container .right-footer .subs{
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.right-footer .input-mail{
+    padding: 20px 20px;
+    margin-bottom: 30px;
+    width: 100%;
+    border: 1px solid rgb(228, 215, 215);
+    color: white;
+    border-radius: 5px;
+    background-color: transparent;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+::placeholder{
+    color: rgb(228, 215, 215);
+}
+.right-footer .secondary-btn{
+    color: white;
+    background-color: #005FAC;
+    border-radius: 5px;
+    border: none;
+    padding: 20px 25px;
+}
+/* Footer Section End */
