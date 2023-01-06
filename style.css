@@ -145,7 +145,7 @@ header{
     padding: 20px 0px 80px 0px;
 }
 .count-content .counter{
-    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.527);
+    box-shadow: 0px 0px 1.5px rgba(0, 0, 0, 0.719);
     border-radius: 10px;
     background-color:#565cac5b;
     padding: 50px 70px;
@@ -166,12 +166,24 @@ hr{
 
 /* Second Banner Section Start */
 .second-banner{
-    background-image: url(images/watch.png), linear-gradient(45deg, #341cbd9c 20%, rgba(132, 0, 255, 0) 100%);
+    background-image: url(images/watch.png), linear-gradient(45deg, #341cbd9c 30%, rgba(29, 12, 46, 0) 100%);
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     /* padding: 150px; */
     min-height: 300px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.banner-content{
+    margin: 0px 50px;
+}
+.banner-title{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
 }
 /* Second Banner Section End */
 
