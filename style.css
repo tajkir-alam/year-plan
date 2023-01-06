@@ -100,3 +100,24 @@ header{
 }
 /* Year Plan Section End */
 
+/* My Plan Section Start */
+.my-plan{
+    text-align: center;
+}
+.my-plan-title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.my-plan-container{
+    display: flex;
+    justify-content: space-around;
+}
+.my-plan-container .my-plan-content-title{
+    margin: 15px 0px;
+}
+.my-plan-container .my-plan-content-attribution{
+    font-weight: 500;
+    color: #737272;
+}
+/* My Plan Section End */
