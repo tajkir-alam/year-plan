@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Common Styles Start*/
+.container{
+    margin: 0 10%;
+}
+button{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+.primary-btn{
+    color: #005FAC;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 20px 25px;
+}
+/* Common Styles End*/
+
+
+
+header{
+    background-image: url(images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header-container{
+    display: flex;
+    justify-content: end;
+}
+.header-content{
+    padding: 150px 0px;
+    text-align: right;
+    width: 50%;
+}
+.header-content .header-title{
+    font-size: 65px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 30px;
+}
+.description-size{
+    display: flex;
+    justify-content: end;
+}
+.header-content .header-description{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 30px;
+    width: 90%;
+}
