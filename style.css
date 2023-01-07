@@ -166,10 +166,9 @@ hr{
 
 /* Second Banner Section Start */
 .second-banner{
-    background-image: url(images/watch.png), linear-gradient(45deg, #341cbd9c 30%, rgba(29, 12, 46, 0) 100%);
+    background-image: url(images/watch.png), linear-gradient(45deg, #341cbd9c 25%, rgba(29, 12, 46, 0) 100%);
     background-blend-mode: overlay;
     background-repeat: no-repeat;
-    /* padding: 150px; */
     min-height: 300px;
     border-radius: 10px;
     display: flex;
