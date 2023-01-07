@@ -191,7 +191,7 @@ hr{
 footer{
     background-color: rgba(15, 15, 15, 0.925);
     color: white;
-    padding: 130px 0px;
+    padding: 100px 0px;
 }
 footer .footer-container{
     display: flex;
